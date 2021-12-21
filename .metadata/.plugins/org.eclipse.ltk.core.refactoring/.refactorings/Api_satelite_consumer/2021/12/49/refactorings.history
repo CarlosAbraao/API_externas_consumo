@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.satelite.cosumer.SatelliteController.java&apos; to &apos;indexController.java&apos;&#x0D;&#x0A;- Original project: &apos;Api_satelite_consumer&apos;&#x0D;&#x0A;- Original element: &apos;com.satelite.cosumer.SatelliteController.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.satelite.cosumer.indexController.java&apos;" description="Rename compilation unit &apos;SatelliteController.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.satelite.cosumer{SatelliteController.java" name="indexController.java" references="false" stamp="1638544794089" version="1.0"/>
+</session>
