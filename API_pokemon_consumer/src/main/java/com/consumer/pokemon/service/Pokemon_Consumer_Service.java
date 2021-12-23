@@ -40,17 +40,17 @@ public void buscaPokemon() {
 		Pokemon pokemon = restTemplate.getForObject("https://pokeapi.co/api/v2/pokemon?limit=2", Pokemon.class);
 		System.out.println("Nome do Pokemon: " + pokemon.getResults());
 		
-		
+		//AINDA N CORRIGI O ERRO DOS DOIS METODOS
 		// OBJETOS DENTRO DE UMA LISTA - E UMA FORMA NÃO MUITO ATUAL
 //		Pokemon[] pokem = new RestTemplate().getForObject("https://pokeapi.co/api/v2/pokemon?limit=2", Pokemon[].class);
 //		
 //		System.out.println(Arrays.toString(pokem));
 		
 		
-		ResponseEntity<List<Pokemon>> exchange =new  RestTemplate().exchange("https://pokeapi.co/api/v2/pokemon?limit=2", HttpMethod.GET,null,
-				new ParameterizedTypeReference<List<Pokemon>>(){});
-		
-		System.out.println(exchange.getBody());
+//		ResponseEntity<List<Pokemon>> exchange =new  RestTemplate().exchange("https://pokeapi.co/api/v2/pokemon?limit=2", HttpMethod.GET,null,
+//				new ParameterizedTypeReference<List<Pokemon>>(){});
+//		
+//		System.out.println(exchange.getBody());
 		
 		
 	}
